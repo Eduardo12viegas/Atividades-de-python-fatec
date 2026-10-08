@@ -1,0 +1,6 @@
+n = float(input('Digite o valor em reais: '))
+print(f'o valor em reais de {n} é equivalente a {n * 99999} em dólares :D')
+print('')
+print('...')
+print(f'brincadeira, o valor em reais de {n} é equivalente a {n * 5.25} em dólares')
+print('')

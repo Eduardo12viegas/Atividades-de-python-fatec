@@ -1,0 +1,15 @@
+import os
+
+# Defina a pasta onde os arquivos serão criados
+pasta = r"C:\Users\odrau\OneDrive\Desktop\Atividades de python fatec\Lista de python 3 (50 ex)"
+
+# Loop para gerar 50 arquivos
+for i in range(1, 51):
+    nome_arquivo = f"lista_3_ex{i}.py"
+    caminho = os.path.join(pasta, nome_arquivo)
+    
+    # Cria o arquivo vazio
+    with open(caminho, "w") as f:
+        f.write("# Arquivo gerado automaticamente\n")
+    
+print("Arquivos criados com sucesso!")
